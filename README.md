@@ -41,7 +41,7 @@ Requirements: Python 3.8 or newer (`python3`, or `python` on Windows). `git` is 
 # 1. Get the repo, or update it if it is already there
 dest="$HOME/.local/share/claude-statusline"
 if [ -d "$dest/.git" ]; then
-  git -C "$dest" pull --ff-only
+  (cd "$dest" && gh repo sync 2>/dev/null) || git -C "$dest" pull --ff-only
 else
   gh repo clone nvmmonkey/claude-statusline "$dest" 2>/dev/null \
     || git clone https://github.com/nvmmonkey/claude-statusline.git "$dest"
@@ -51,7 +51,7 @@ fi
 "$dest/install.sh"
 ```
 
-The repository is private. If both clone commands fail, ask the user to run `gh auth login` (or otherwise give this machine access to GitHub) and try again.
+The repository is private. The `gh` commands use the GitHub CLI login. The plain `git` fallbacks only work if git itself has GitHub credentials. If both fail, ask the user to run `gh auth login` and try again.
 
 `install.sh` does four things:
 
