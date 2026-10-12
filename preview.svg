@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="678" height="98" viewBox="0 0 678 98" role="img" aria-label="Claude Code status line preview">
+  <rect width="678" height="98" rx="10" fill="#1e1e2e"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="14" style="white-space:pre">
+  <text x="20" y="32" xml:space="preserve"><tspan fill="#ffafd7">5h:</tspan><tspan fill="#afd7af">███</tspan><tspan fill="#cdd6f4">░░░░░ </tspan><tspan fill="#ffafd7">42%</tspan><tspan fill="#cdd6f4"> </tspan><tspan fill="#ffafd7" fill-opacity="0.6">(2h13m)</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#ffafd7">7d:</tspan><tspan fill="#ffffaf">█████</tspan><tspan fill="#cdd6f4">░░░ </tspan><tspan fill="#ffafd7">67%</tspan><tspan fill="#cdd6f4"> </tspan><tspan fill="#ffafd7" fill-opacity="0.6">(3d5h)</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#ffafd7">1.0M Context:</tspan><tspan fill="#afd7af">██</tspan><tspan fill="#cdd6f4">░░░░░░ </tspan><tspan fill="#ffafd7">23%</tspan></text>
+  <text x="20" y="54" xml:space="preserve"><tspan fill="#ffd7af">Tokens: in 1.8M, out 96k </tspan><tspan fill="#ffd7af" fill-opacity="0.6">(本轮: in 10k, out 2k)</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#ffd7af">Cached: 221k</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#ffd7af">Cost: $4.27</tspan></text>
+  <text x="20" y="76" xml:space="preserve"><tspan fill="#87afff">Opus 5.5/high/nofast</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#87afff">1h32m</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#87ff87">my-app</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#ff87af">main*</tspan></text>
+  </g>
+</svg>

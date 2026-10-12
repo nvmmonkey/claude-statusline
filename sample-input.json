@@ -1,0 +1,26 @@
+{
+  "model": { "id": "claude-opus-5-5", "display_name": "Opus 5.5" },
+  "effort": { "level": "high" },
+  "fast_mode": false,
+  "workspace": {
+    "current_dir": "/home/you/projects/my-app",
+    "project_dir": "/home/you/projects/my-app"
+  },
+  "cost": { "total_cost_usd": 4.27, "total_duration_ms": 5520000 },
+  "context_window": {
+    "context_window_size": 1000000,
+    "used_percentage": 23,
+    "total_input_tokens": 1840000,
+    "total_output_tokens": 96000,
+    "current_usage": {
+      "input_tokens": 1200,
+      "output_tokens": 2400,
+      "cache_creation_input_tokens": 8800,
+      "cache_read_input_tokens": 221000
+    }
+  },
+  "rate_limits": {
+    "five_hour": { "used_percentage": 42 },
+    "seven_day": { "used_percentage": 67 }
+  }
+}
